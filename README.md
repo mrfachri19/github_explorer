@@ -1,7 +1,7 @@
 # GitHub Repositories Explorer
 
 GitHub Repositories Explorer is a simple React application for searching GitHub users and displaying their repositories.
-
+link: 
 ## 🚀 Features
 
 - 🔍 Search for GitHub users by username.
@@ -21,5 +21,11 @@ GitHub Repositories Explorer is a simple React application for searching GitHub 
 ## 📦 Installation & Running the Project
 
 1. Clone this repository:
-   ```sh
+
+   ````sh
    git clone https://github.com/mrfachri19/github_explorer.git
+
+2. Testing:
+   ```sh
+   npx vitest
+   ````
