@@ -22,4 +22,4 @@ GitHub Repositories Explorer is a simple React application for searching GitHub 
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/mrfachri19/github_explorer.git
