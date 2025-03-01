@@ -1,7 +1,6 @@
 import { http, HttpResponse } from "msw";
 
 export const handlers = [
-  // Mock API untuk pencarian user
   http.get("https://api.github.com/search/users", async () => {
     return HttpResponse.json({
       items: [
@@ -11,13 +10,13 @@ export const handlers = [
     });
   }),
 
-  // Mock API untuk repositori user
+
   http.get(
     "https://api.github.com/users/:username/repos",
     async ({ params }) => {
       console.log("Mock API dipanggil untuk repositori:", params.username);
 
-      const { username } = params as { username: string }; // Pastikan tipe params
+      const { username } = params as { username: string }; 
       return HttpResponse.json([
         {
           id: 101,
