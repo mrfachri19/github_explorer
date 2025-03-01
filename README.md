@@ -1,7 +1,7 @@
 # GitHub Repositories Explorer
 
 GitHub Repositories Explorer is a simple React application for searching GitHub users and displaying their repositories.
-link: 
+link: https://github-explorer-drab.vercel.app/
 ## 🚀 Features
 
 - 🔍 Search for GitHub users by username.
